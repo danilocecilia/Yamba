@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.sunshine.app.MainActivity" >
+    <item
+        android:id="@+id/item_status_update"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="always|withText"
+        android:title="@string/status_update"
+        android:titleCondensed="@string/update">
+    </item>
+    <item
+        android:id="@+id/item_prefs"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom"
+        android:title="@string/preferences"
+        android:titleCondensed="@string/prefs">
+    </item>
+    <item
+        android:id="@+id/item_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:showAsAction="always|withText"
+        android:title="@string/refresh">
+    </item>
+</menu>
